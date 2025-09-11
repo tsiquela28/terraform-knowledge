@@ -1,0 +1,254 @@
+{
+  "version": 4,
+  "terraform_version": "1.12.2",
+  "serial": 3,
+  "lineage": "67afff32-a89d-a303-dfe2-74422048afdc",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "bucket2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "acceleration_status": "",
+            "acl": null,
+            "arn": "arn:aws:s3:::thiagoranierisiquela-terraform-comands-2",
+            "bucket": "thiagoranierisiquela-terraform-comands-2",
+            "bucket_domain_name": "thiagoranierisiquela-terraform-comands-2.s3.amazonaws.com",
+            "bucket_prefix": "",
+            "bucket_region": "sa-east-1",
+            "bucket_regional_domain_name": "thiagoranierisiquela-terraform-comands-2.s3.sa-east-1.amazonaws.com",
+            "cors_rule": [],
+            "force_destroy": false,
+            "grant": [
+              {
+                "id": "9e837e5365b1de0efcc0ed12d762bd5f026193d0cfab8a7d76087f89e75c58bf",
+                "permissions": [
+                  "FULL_CONTROL"
+                ],
+                "type": "CanonicalUser",
+                "uri": ""
+              }
+            ],
+            "hosted_zone_id": "Z7KQH4QJS55SO",
+            "id": "thiagoranierisiquela-terraform-comands-2",
+            "lifecycle_rule": [],
+            "logging": [],
+            "object_lock_configuration": [],
+            "object_lock_enabled": false,
+            "policy": "",
+            "region": "sa-east-1",
+            "replication_configuration": [],
+            "request_payer": "BucketOwner",
+            "server_side_encryption_configuration": [
+              {
+                "rule": [
+                  {
+                    "apply_server_side_encryption_by_default": [
+                      {
+                        "kms_master_key_id": "",
+                        "sse_algorithm": "AES256"
+                      }
+                    ],
+                    "bucket_key_enabled": false
+                  }
+                ]
+              }
+            ],
+            "tags": null,
+            "tags_all": {
+              "managed-by": "terraform",
+              "owner": "thiagosiquela"
+            },
+            "timeouts": null,
+            "versioning": [
+              {
+                "enabled": false,
+                "mfa_delete": false
+              }
+            ],
+            "website": [],
+            "website_domain": null,
+            "website_endpoint": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "identity": {
+            "account_id": "388309267906",
+            "bucket": "thiagoranierisiquela-terraform-comands-2",
+            "region": "sa-east-1"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjM2MDAwMDAwMDAwMDAsInJlYWQiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "bucket3",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "acceleration_status": "",
+            "acl": null,
+            "arn": "arn:aws:s3:::thiagoranierisiquela-terraform-comands-3",
+            "bucket": "thiagoranierisiquela-terraform-comands-3",
+            "bucket_domain_name": "thiagoranierisiquela-terraform-comands-3.s3.amazonaws.com",
+            "bucket_prefix": "",
+            "bucket_region": "sa-east-1",
+            "bucket_regional_domain_name": "thiagoranierisiquela-terraform-comands-3.s3.sa-east-1.amazonaws.com",
+            "cors_rule": [],
+            "force_destroy": false,
+            "grant": [
+              {
+                "id": "9e837e5365b1de0efcc0ed12d762bd5f026193d0cfab8a7d76087f89e75c58bf",
+                "permissions": [
+                  "FULL_CONTROL"
+                ],
+                "type": "CanonicalUser",
+                "uri": ""
+              }
+            ],
+            "hosted_zone_id": "Z7KQH4QJS55SO",
+            "id": "thiagoranierisiquela-terraform-comands-3",
+            "lifecycle_rule": [],
+            "logging": [],
+            "object_lock_configuration": [],
+            "object_lock_enabled": false,
+            "policy": "",
+            "region": "sa-east-1",
+            "replication_configuration": [],
+            "request_payer": "BucketOwner",
+            "server_side_encryption_configuration": [
+              {
+                "rule": [
+                  {
+                    "apply_server_side_encryption_by_default": [
+                      {
+                        "kms_master_key_id": "",
+                        "sse_algorithm": "AES256"
+                      }
+                    ],
+                    "bucket_key_enabled": false
+                  }
+                ]
+              }
+            ],
+            "tags": null,
+            "tags_all": {
+              "managed-by": "terraform",
+              "owner": "thiagosiquela"
+            },
+            "timeouts": null,
+            "versioning": [
+              {
+                "enabled": false,
+                "mfa_delete": false
+              }
+            ],
+            "website": [],
+            "website_domain": null,
+            "website_endpoint": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "identity": {
+            "account_id": "388309267906",
+            "bucket": "thiagoranierisiquela-terraform-comands-3",
+            "region": "sa-east-1"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjM2MDAwMDAwMDAwMDAsInJlYWQiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "bucket_um",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "acceleration_status": "",
+            "acl": null,
+            "arn": "arn:aws:s3:::thiagoranierisiquela-terraform-comands-1",
+            "bucket": "thiagoranierisiquela-terraform-comands-1",
+            "bucket_domain_name": "thiagoranierisiquela-terraform-comands-1.s3.amazonaws.com",
+            "bucket_prefix": "",
+            "bucket_region": "sa-east-1",
+            "bucket_regional_domain_name": "thiagoranierisiquela-terraform-comands-1.s3.sa-east-1.amazonaws.com",
+            "cors_rule": [],
+            "force_destroy": false,
+            "grant": [
+              {
+                "id": "9e837e5365b1de0efcc0ed12d762bd5f026193d0cfab8a7d76087f89e75c58bf",
+                "permissions": [
+                  "FULL_CONTROL"
+                ],
+                "type": "CanonicalUser",
+                "uri": ""
+              }
+            ],
+            "hosted_zone_id": "Z7KQH4QJS55SO",
+            "id": "thiagoranierisiquela-terraform-comands-1",
+            "lifecycle_rule": [],
+            "logging": [],
+            "object_lock_configuration": [],
+            "object_lock_enabled": false,
+            "policy": "",
+            "region": "sa-east-1",
+            "replication_configuration": [],
+            "request_payer": "BucketOwner",
+            "server_side_encryption_configuration": [
+              {
+                "rule": [
+                  {
+                    "apply_server_side_encryption_by_default": [
+                      {
+                        "kms_master_key_id": "",
+                        "sse_algorithm": "AES256"
+                      }
+                    ],
+                    "bucket_key_enabled": false
+                  }
+                ]
+              }
+            ],
+            "tags": null,
+            "tags_all": {
+              "managed-by": "terraform",
+              "owner": "thiagosiquela"
+            },
+            "timeouts": null,
+            "versioning": [
+              {
+                "enabled": false,
+                "mfa_delete": false
+              }
+            ],
+            "website": [],
+            "website_domain": null,
+            "website_endpoint": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "identity": {
+            "account_id": "388309267906",
+            "bucket": "thiagoranierisiquela-terraform-comands-1",
+            "region": "sa-east-1"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjM2MDAwMDAwMDAwMDAsInJlYWQiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
+
