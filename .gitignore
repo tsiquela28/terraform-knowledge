@@ -22,4 +22,3 @@ override.tf.json
 # Arquivos adicionais 
 *.txt 
 *key*
-USER-DATA/
