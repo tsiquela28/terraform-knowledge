@@ -18,3 +18,8 @@ override.tf.json
 # Variáveis sensíveis
 *.tfvars
 *.tfvars.json
+
+# Arquivos adicionais 
+*.txt 
+*key*
+USER-DATA/
